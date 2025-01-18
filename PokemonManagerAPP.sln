@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{D296EDA9-35A6-41A2-B8DC-9D5EAF150D97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{38FFB6DC-50E7-4C02-8767-E8924C346828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{8638A2E5-9B2A-418E-B5E4-D0C8E942A45E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - WorkerService", "4 - WorkerService", "{107AB102-2DD8-47E6-B9FF-B5FB02FEF4B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{7677926E-1FDC-4FBA-89C3-502F57DC7CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - UI", "7 - UI", "{5DCF4EAE-D8EA-4355-81AB-893CAF5F5591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Presentation", "6 - Presentation", "{95F8CF28-F3DD-4EE5-B623-80F510D7D6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.Domain", "PokemonManagerAPP.Domain\PokemonManagerAPP.Domain.csproj", "{9898CE58-9746-4279-99A3-1718B027B705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.Application", "PokemonManagerAPP.Application\PokemonManagerAPP.Application.csproj", "{48E6913C-A183-4888-A7CA-93C6F73FD520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.Infrastructure", "PokemonManagerAPP.Infrastructure\PokemonManagerAPP.Infrastructure.csproj", "{F288DEF4-14E4-455B-8859-7D9D1A072F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.Jobs", "PokemonManagerAPP.Jobs\PokemonManagerAPP.Jobs.csproj", "{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.Tests", "PokemonManagerAPP.Tests\PokemonManagerAPP.Tests.csproj", "{42EDEC6B-1F3D-4182-AA72-7E8B364924BE}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pokemon-manager-vue", "pokemon-manager-vue\pokemon-manager-vue.esproj", "{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.API", "PokemonManagerAPP.API\PokemonManagerAPP.API.csproj", "{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManagerAPP.WorkerService", "PokemonManagerAPP.WorkerService\PokemonManagerAPP.WorkerService.csproj", "{309E8233-8E3E-451E-8A99-1A31FB981CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9898CE58-9746-4279-99A3-1718B027B705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9898CE58-9746-4279-99A3-1718B027B705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9898CE58-9746-4279-99A3-1718B027B705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9898CE58-9746-4279-99A3-1718B027B705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E6913C-A183-4888-A7CA-93C6F73FD520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E6913C-A183-4888-A7CA-93C6F73FD520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E6913C-A183-4888-A7CA-93C6F73FD520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E6913C-A183-4888-A7CA-93C6F73FD520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F288DEF4-14E4-455B-8859-7D9D1A072F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F288DEF4-14E4-455B-8859-7D9D1A072F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F288DEF4-14E4-455B-8859-7D9D1A072F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F288DEF4-14E4-455B-8859-7D9D1A072F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EDEC6B-1F3D-4182-AA72-7E8B364924BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EDEC6B-1F3D-4182-AA72-7E8B364924BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EDEC6B-1F3D-4182-AA72-7E8B364924BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EDEC6B-1F3D-4182-AA72-7E8B364924BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309E8233-8E3E-451E-8A99-1A31FB981CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309E8233-8E3E-451E-8A99-1A31FB981CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309E8233-8E3E-451E-8A99-1A31FB981CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309E8233-8E3E-451E-8A99-1A31FB981CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9898CE58-9746-4279-99A3-1718B027B705} = {D296EDA9-35A6-41A2-B8DC-9D5EAF150D97}
+		{48E6913C-A183-4888-A7CA-93C6F73FD520} = {38FFB6DC-50E7-4C02-8767-E8924C346828}
+		{F288DEF4-14E4-455B-8859-7D9D1A072F2B} = {8638A2E5-9B2A-418E-B5E4-D0C8E942A45E}
+		{6DE4C224-6EDB-4D02-AE82-DCFBB02EB3E2} = {107AB102-2DD8-47E6-B9FF-B5FB02FEF4B0}
+		{42EDEC6B-1F3D-4182-AA72-7E8B364924BE} = {7677926E-1FDC-4FBA-89C3-502F57DC7CA9}
+		{2DF3D289-A6DE-4402-AF30-42B4C3E86A40} = {5DCF4EAE-D8EA-4355-81AB-893CAF5F5591}
+		{EDBDCD67-B86B-4F77-A40A-68CD7E0F005F} = {95F8CF28-F3DD-4EE5-B623-80F510D7D6BC}
+		{309E8233-8E3E-451E-8A99-1A31FB981CCF} = {107AB102-2DD8-47E6-B9FF-B5FB02FEF4B0}
+	EndGlobalSection
+EndGlobal

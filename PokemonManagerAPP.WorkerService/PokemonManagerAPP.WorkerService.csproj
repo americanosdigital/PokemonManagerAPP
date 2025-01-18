@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PokemonManagerAPP.WorkerService-cddc13a6-12bc-4012-b4fa-eafe5b68d1f6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.17" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.8.1.1" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.17" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokemonManagerAPP.Application\PokemonManagerAPP.Application.csproj" />
+    <ProjectReference Include="..\PokemonManagerAPP.Domain\PokemonManagerAPP.Domain.csproj" />
+    <ProjectReference Include="..\PokemonManagerAPP.Infrastructure\PokemonManagerAPP.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
