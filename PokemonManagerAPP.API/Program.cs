@@ -4,6 +4,8 @@ using Microsoft.Extensions.Hosting;
 using PokemonManagerAPP.Application;
 using PokemonManagerAPP.Infrastructure;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
@@ -27,3 +29,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+

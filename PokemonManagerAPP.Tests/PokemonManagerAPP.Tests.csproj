@@ -12,6 +12,11 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="FluentAssertions" Version="8.0.0" />
+    <PackageReference Include="Hangfire" Version="1.8.17" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.17" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.5.3" />
@@ -19,8 +24,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PokemonManagerAPP.API\PokemonManagerAPP.API.csproj" />
     <ProjectReference Include="..\PokemonManagerAPP.Application\PokemonManagerAPP.Application.csproj" />
+    <ProjectReference Include="..\PokemonManagerAPP.Domain\PokemonManagerAPP.Domain.csproj" />
     <ProjectReference Include="..\PokemonManagerAPP.Infrastructure\PokemonManagerAPP.Infrastructure.csproj" />
+    <ProjectReference Include="..\PokemonManagerAPP.Jobs\PokemonManagerAPP.Jobs.csproj" />
+    <ProjectReference Include="..\PokemonManagerAPP.WorkerService\PokemonManagerAPP.WorkerService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
